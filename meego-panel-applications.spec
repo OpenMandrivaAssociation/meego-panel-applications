@@ -8,6 +8,11 @@ Release: %mkrel 2
 Source0: http://repo.meego.com/MeeGo/releases/1.1/netbook/repos/source/%{name}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires: mutter-meego
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: clutter-devel
 BuildRequires: gtk2-devel
 BuildRequires: gnome-menus-devel
